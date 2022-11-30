@@ -126,7 +126,7 @@ app.post("/check-face", async (req, res) => {
 // add your mongo key instead of the ***
 mongoose
   .connect(
-    `***`,
+    `mongodb+srv://elianromero:zzeYrO0X5hJvWfYh@cluster0.wieb2vo.mongodb.net/test`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
